@@ -16,36 +16,6 @@
 
     <!-- Tailwind Configuration -->
     <script>
-                tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['"Plus Jakarta Sans"', '"Inter"', 'system-ui', 'sans-serif'],
-                    },
-                    animation: {
-                        'aurora': 'auroraShift 8s ease infinite',
-                        'spin-slow': 'spin 5s linear infinite',
-                        'float-gentle': 'floatGentle 3.5s ease-in-out infinite',
-                        'bounce-dot': 'bounceDot 1.4s infinite ease-in-out both',
-                    },
-                    keyframes: {
-                        auroraShift: {
-                            '0%, 100%': { backgroundPosition: '0% 50%' },
-                            '50%': { backgroundPosition: '100% 50%' },
-                        },
-                        floatGentle: {
-                            '0%, 100%': { transform: 'translateY(0px)' },
-                            '50%': { transform: 'translateY(-6px)' },
-                        },
-                        bounceDot: {
-                            '0%, 80%, 100%': { transform: 'scale(0.6)', opacity: '0.4' },
-                            '40%': { transform: 'scale(1.1)', opacity: '1' },
-                        }
-                    }
-                }
-            }
-        };
         tailwind.config = {
             darkMode: 'class',
             theme: {
